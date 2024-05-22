@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/warnerbros.png">
+        <h1>WARNER BROS.</h1>
+        <P>The Stuff That Dreams Are Made Of.</P>
+    </header>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Movies.html">Movies</a></li>
+        <li><a href="TvShows.html">Tv Shows</a></li>
+        <li><a href="GamesandApps.html">Games and Apps</a></li>
+        <li><a href="Feedback.html">Feedback</a></li> 
+        <li><a href="About.html">About</a></li> 
+        </ul> <br><br>
+    <div  class="textsearch">
+        <label for="textsearch">Search :</label>
+        <input type="search" id="txtsearch"> 
+    </div>
+    </nav>
+    <div class="feedback">
+    <h2>Feedback</h2>
+        <form action="thankyou.html" method="get">
+          <p>Please write your feedback below:</p>
+          <label for="rating">How do you rate your overall experience?</label><br>
+
+          <div section="rating">
+            <label>Five Stars 
+              <input type="radio" id="Five Star" name="rating" value="1"/>
+        -   </label>
+           <label>Four Stars
+              <input type="radio" id="Four Stars" name="rating" value="2"/>
+            </label>
+            <label>Three Stars
+               <input type="radio" id="Three Stars" name="rating" value="3"/>
+            </label>
+            <label>Two Stars
+              <input type="radio" id="Two Stars" name="rating" value="4"/>
+             </label>
+             <label>One Star
+                <input type="radio" id="One Star" name="rating" value="5"/>
+             </label>
+          </div><br></br>
+         <div class="personal details">
+         <label for="name">Full Name</label>
+         <input type="text" id="name" name="name" placeholder="Full name" required/><br>
+         <label for="gender">Gender</label>
+            <select id="gender" name="Gender" required>
+              <option value="0">Select...</option>
+              <option value="F">Female</option>
+              <option value="M">Male</option>
+            </select></br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email" required/><br>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Phone" required/><br>
+            <label for="comments">Comments</label>
+            <textarea>
+            </textarea><br>
+            </div>
+            
+            <button type="submit">Submit</button>
+            <button>Cancel</button>
+         </form>
+        </div> 
+        </div><br></br>
+        <footer id="footer">
+            <p id="pfooter">
+            &copy; WarnerBros-2023
+            </p>
+            <div id="divsocialmedia">
+                <img src="images/fb.JPG">
+                <img src="images/tt.JPG">
+                <img src="images/yt.JPG">
+            </div>
+        </footer>
+</body>
+</html>
