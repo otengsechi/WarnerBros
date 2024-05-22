@@ -1,0 +1,184 @@
+body{
+    background-image: linear-gradient(90deg, black, rgb(150,150,150));
+    color: white;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+}
+
+/*styling the header*/
+header img{
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+header p{
+    text-align: center;
+    font-size: 125%;
+}
+header{
+    padding-top: 0.188em;
+    padding-bottom: 0.63em;
+}
+
+/*styling the navigation bar*/
+nav{
+    padding-top: 0.188em;
+    padding-bottom: 0.313em;
+}
+nav li {
+    display: inline;
+    text-align: center;
+    padding: 4%;
+    list-style-type: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background: white;
+    color: black;
+}
+.textsearch{
+    text-align: center;
+}
+
+/*styling aside*/
+aside{
+    float: left;
+    width: 22%;
+    padding: 0.25em;
+    padding-right: 0;
+}
+aside a{
+    text-decoration: none;
+    color: white;
+}
+.aside-scroll{
+    overflow-y: auto;
+    max-height: 6.25em;
+}
+aside a:hover{
+    background: white;
+    color: red;
+}
+aside img:hover{
+    border: 0.188em dotted lightcoral;
+    color: lightsalmon;
+    background: white;
+}
+.Most_rated img{
+    width: 92%;
+}
+.Most_rated p{
+    text-align: center;
+    font-weight: bold;
+}
+aside, article{
+    padding-top: 0.188em;
+}  
+
+/*styling article*/
+article{
+    float: right;
+    width: 77%;
+}
+h2{
+    text-decoration: underline;
+} 
+.theaters iframe{
+    margin-right: 0;
+    margin-left: 1.25em;
+}
+.Streaming img:hover{
+    border: 0.188em dotted lightcoral;
+    color: lightsalmon;
+    background: white;
+}
+.Streaming img{
+    width: 93%;
+    padding: 0.313em;
+}
+.Streaming1, .Streaming2{
+    display: inline-flex;
+}
+.Streaming p{
+    text-align: center;
+    font-weight: bold;
+}
+.latest_release{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.latest_release img{
+    width: 22%;
+}
+.latest_release img:hover{
+    border: 0.188em dotted lightcoral;
+    color: lightsalmon;
+    background: white;
+}
+.description{
+    float: right;
+    width: 72%;
+    margin-right: 5%;
+    text-align: left;
+}
+.About{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/*styling footer*/
+.spacer{
+    clear: both;
+}
+#footer{
+    height: 5em;
+    border-radius: 0 0 0.625em 0.625em;
+}
+#footer>p#pfooter{
+    margin: 0.313em;
+}
+#divsocialmedia img{
+    border: 0.125em solid black;
+    border-radius:50%;
+}
+#divsocialmedia img:hover{
+    opacity:0.5;
+}
+
+#footer>div{
+    text-align: center;
+}
+#footer>p#pfooter{
+    margin: 0.313em;
+    text-align: center;
+}
+
+/*styling feedback*/
+.personal details label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.625em;
+}
+
+input[type=text], textarea {
+     width: 50%;
+     padding: 0.75em;
+     border: 0.0625em solid #ccc;
+     border-radius: 0.25em;
+     display: block;
+ }
+ .feedback{
+    margin-left: 30%;
+ }
